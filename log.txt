@@ -1,0 +1,23 @@
+Logg basert op GitHub Commits
+4.  Mai
+        Valgte kva eg skulle lage
+        Starta Planlegging av appen
+        Starta på skisse
+9.  Mai
+        Ferdig med skisse
+10. Mai
+        Starta å lage appen i html/css
+        Slutta med html/css, og begynte i reactjs
+12. Mai
+        Ferdig med basic frontend
+        Starta med backend socket
+16. Mai 
+        Meldinger, venner, legge til venner, logge ut, logge in, registrering ferdig
+17. Mai
+        Fiksa en bug, meldingredigering ferdig
+        La til SQL fil i git
+19. Mai
+        Lagde endpoint for bildeopplasting
+        Kan no sende bilder
+2.  Juni
+        Fiksa bugs med modal

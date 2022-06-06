@@ -81,4 +81,4 @@
 		Utviklere: Sjå kommentarer i kode
 
 6. 	Publisering/Drift
-		kjør oppgåve.sh
+		Les README.md: https://github.com/NUB31/SkuleProsjekt/blob/master/README.md
