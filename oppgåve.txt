@@ -1,0 +1,84 @@
+1. 	Kravspesifikasjon:
+		Systemet skal la deg lage en profil, logge inn, legge til venner og sende meldinger/bilder til dem
+
+2. 	Planlegging:
+		Design (XD): https://xd.adobe.com/view/99817053-3ba6-4300-8d9a-a239218aab63-ccd2/
+		Bruksmønsterdiagram: https://github.com/NUB31/skoolProjBackend/blob/master/brukermønster.svg
+		Pseudokode: 
+			Client: 
+				Signup:
+					input > username
+					input > password
+					input > email
+					input > submit
+					onSubmit => send data to server
+						onSuccess => redirect to login
+						onError => show error 
+				Login:
+					input > username
+					input > password
+					input > submit
+					onSubmit => send data to server
+						onSuccess => set login cookie and redirect to home
+						onError => show error 
+				Home:
+					aside >
+						Friends
+					main >
+						ul
+						messageBox
+					onUserClick => get all messages from user
+						onSuccess => upadte ul
+					onSubmit => Send message to backend and upadte ul
+					onNewMessage => if message.to = me update ul
+			Server:
+				Socket:
+					socket on message: send message with user from and user and message content
+				Http:
+					Signup
+						hash password
+						send to database
+					login
+						check database
+					getMessages
+						get messages with id
+					getUserdata
+						get data from user
+					authenticateToken
+						check if logged in
+						if not send to login
+3. 	Implementering:
+		GitHub: https://github.com/NUB31/skoolProjBackend
+
+4. 	Testing:
+		Testplan:
+			Lar testeren test sjølv. Starter på / siden
+			Om brukeren setter seg fast, hjelper eg, og forlkarer.
+			Om brukeren ikkje finner alle funkjsoner, veileder eg dem
+		Brukertesting:
+			Tilbakemelding: 
+				"Veldig bra nettside" - Henrik
+				"Nokken små bugs" - Henrik
+				"Ganske imponert" - Henrik
+				"Alt i alt 👍" - Henrik
+			Tips til videreutvikling:
+				"Kanskje light mode" - Henrik
+			Bugs og problemer: 
+				Fix email
+				Fix validation (phone) ✔️
+				Only send images ✔️
+				Remove sidebar and topbar when not logged in ✔️
+				Poop emoji
+				Dont send message to myself ✔️
+				Remove console logs ✔️
+				Dont send nothing ✔️
+				Remove replies ✔️
+				Dont edit to nothing ✔️
+		Debugging: Blir gjort underveis, so har ikkje akkurat et konkret eksempel.
+
+5. 	Dokumentasjon
+		Brukere: https://github.com/NUB31/skoolProjBackend/blob/master/README.md
+		Utviklere: Sjå kommentarer i kode
+
+6. 	Publisering/Drift
+		kjør oppgåve.sh
