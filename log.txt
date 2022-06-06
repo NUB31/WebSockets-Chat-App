@@ -21,3 +21,5 @@ Logg basert op GitHub Commits
         Kan no sende bilder
 2.  Juni
         Fiksa bugs med modal
+6.  Juni
+        Ferdig med log, oppgåve og build.sh
