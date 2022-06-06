@@ -1,6 +1,6 @@
 ## Brukerveiledinng
 
-### Installasjon
+- ### Installasjon
 
 #### Via git
 
