@@ -61,19 +61,25 @@
 				"Nokken små bugs" - Henrik
 				"Ganske imponert" - Henrik
 				"Alt i alt 👍" - Henrik
-			Tips til videreutvikling:
+				"Veldig stjåle design" - Arseni
+				"Remove console.logs" - Arseni
+				"Alt ser perfekt ut" - Musie
+			Videreutvikling:
 				"Kanskje light mode" - Henrik
+				"Modal on click myself" - Henrik
 			Bugs og problemer: 
-				Fix email
-				Fix validation (phone) ✔️
-				Only send images ✔️
-				Remove sidebar and topbar when not logged in ✔️
-				Poop emoji
-				Dont send message to myself ✔️
-				Remove console logs ✔️
-				Dont send nothing ✔️
-				Remove replies ✔️
-				Dont edit to nothing ✔️
+				Fix email ✔
+				Fix validation (phone) ✔
+				Only send images ✔
+				Remove sidebar and topbar when not logged in ✔
+				Poop emoje - Musie lika, so ej beheld den ✔
+				Dont send message to myself ✔
+				Remove console logs ✔
+				Dont send nothing ✔
+				Remove replies ✔
+				Dont edit to nothing ✔
+				Meir space over messagebox ✔
+
 		Debugging: Blir gjort underveis, so har ikkje akkurat et konkret eksempel.
 
 5. 	Dokumentasjon
