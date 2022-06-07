@@ -3,7 +3,7 @@
 
 2. 	Planlegging:
 		Design (XD): https://xd.adobe.com/view/99817053-3ba6-4300-8d9a-a239218aab63-ccd2/
-		Bruksmønsterdiagram: https://github.com/NUB31/skoolProj/blob/master/brukermønster.svg
+		Bruksmønsterdiagram: https://github.com/NUB31/SkuleProsjekt/blob/master/brukerm%C3%B8nster.svg
 		Pseudokode: 
 			Client: 
 				Signup:
